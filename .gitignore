@@ -1,0 +1,25 @@
+# Ignore Python Bytecode
+*.py[cod]
+__pycache__/
+
+# Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and other unnecessary files
+*.log
+*.out
+*.tmp
+
+# Ignore dataset files if any
+data/
+
+# Ignore output images from GAN training
+generated_image_*.png
